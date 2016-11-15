@@ -18,7 +18,7 @@ public class HomeScreen extends AppCompatActivity {
     private String classtag= HomeScreen.class.getSimpleName();  //return name of underlying class
     private ListView lv;
     private ProgressDialog progress;
-    private String url="https://raw.githubusercontent.com/mobilesiri/JSON-Parsing-in-Android/master/index.html"; //passing url
+    private String url="https://raw.githubusercontent.com/iCodersLab/JSON-Parsing-in-Android-using-Android-Studio/master/index.html"; //passing url
     ArrayList<HashMap<String,String>> studentslist; //arraylist to save key value pair from json
     @Override
     protected void onCreate(Bundle savedInstanceState) {
